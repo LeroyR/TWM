@@ -1,5 +1,8 @@
 # MoveTo service from Navigation plugin
 
+# Disable Navigation, return pose/config only
+bool no_nav
+
 uuid_msgs/UniqueID id
 string view
 ---
