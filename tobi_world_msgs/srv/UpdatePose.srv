@@ -1,0 +1,5 @@
+# set Entity Pose
+uuid_msgs/UniqueID id
+geometry_msgs/Pose pose
+---
+string error_msg

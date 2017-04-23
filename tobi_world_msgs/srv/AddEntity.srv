@@ -1,0 +1,9 @@
+# Add Entity
+
+bool from_model
+# if from_model loads the given model from the database
+string type
+
+geometry_msgs/Pose pose
+---
+uuid_msgs/UniqueID id

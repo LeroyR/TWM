@@ -1,0 +1,5 @@
+# fetch entity by uuid
+
+uuid_msgs/UniqueID id
+---
+Entity entity

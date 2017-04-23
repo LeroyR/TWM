@@ -1,0 +1,8 @@
+# loads a plugin
+
+bool run_once
+string type
+string pkg
+string param
+---
+string error_msg

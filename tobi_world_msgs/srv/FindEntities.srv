@@ -1,0 +1,5 @@
+# find Entity by seach string
+
+string req
+---
+uuid_msgs/UniqueID[] ids

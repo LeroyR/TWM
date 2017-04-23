@@ -1,0 +1,7 @@
+# MoveTo service from Navigation plugin
+
+uuid_msgs/UniqueID id
+string view
+---
+geometry_msgs/Pose target
+tobi_world_msgs/RobotConfig robot
