@@ -1,10 +1,18 @@
 # MoveTo service from Navigation plugin
+# default behavior is moving and returning target position
+# does not move and returns current position and config on valid pose
 
 # Disable Navigation, return pose/config only
 bool no_nav
 
 uuid_msgs/UniqueID id
 string view
+
+# force move even if inside map
+bool force_move
 ---
 geometry_msgs/Pose target
 tobi_world_msgs/RobotConfig robot
+
+# Robotpose at time of calculations
+geometry_msgs/Pose robot_pose
